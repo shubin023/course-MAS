@@ -16,5 +16,11 @@ wheels/
 *.db
 *.sqlite3
 
+# ChromaDB generated data
+chroma_db/
+
+# Claude Code
+.claude/
+
 # macOS files
 .DS_Store
