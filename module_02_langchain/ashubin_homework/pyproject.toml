@@ -1,0 +1,25 @@
+[project]
+name = "ashubin-homework-smart-assistant"
+version = "0.1.0"
+description = "CLI smart assistant homework solution for the LangChain module"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0.0",
+    "langchain-community>=0.4.0",
+    "langchain-core>=1.0.0",
+    "langchain-openai>=1.0.0",
+    "pydantic>=2.8.0",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
