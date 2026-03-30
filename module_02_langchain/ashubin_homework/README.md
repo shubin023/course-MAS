@@ -466,12 +466,6 @@ Fallback строится через `with_fallbacks()` в `smart_assistant_app/
 pytest
 ```
 
-или:
-
-```bash
-conda run -n course_mas_env python3 -m pytest
-```
-
 ## Известные ограничения
 
 - часть системных промптов и служебных описаний сформулирована на английском;
